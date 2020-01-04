@@ -8,3 +8,6 @@ edition = "2018"
 
 [dependencies]
 snmalloc-sys = {git = "https://github.com/SchrodingerZhu/snmalloc-sys"}
+
+[features]
+1mib = ["snmalloc-sys/1mib"]
